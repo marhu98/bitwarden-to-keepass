@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 def main():
     load_dotenv()
-    file = os.environ["INPUT"]
+    file = os.environ["OUTPUT"]
     
     os.system("bw sync")
     os.system(f"bw export --output {file} --format csv")
