@@ -6,6 +6,9 @@ This a tool to help you export your Bitwarden vault into a Keepass database.
 
 - Bitwarden cli
 - KeepassXC
+- Python 3
+-- Pandas
+-- python-dotenv
 
 # How to use
 
